@@ -803,7 +803,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<meta_search>, ["= 1.1.1"])
       s.add_runtime_dependency(%q<koala>, [">= 0"])
       s.add_runtime_dependency(%q<tinymce-rails>, ["~> 3.4.6"])
-      #s.add_runtime_dependency(%q<bborn-acts_as_taggable_on_steroids>, ["~> 2.0.beta2"])
+      s.add_runtime_dependency(%q<bborn-acts_as_taggable_on_steroids>, ["~> 2.0.beta2"])
     else
       s.add_dependency(%q<community_engine>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
@@ -851,7 +851,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<meta_search>, ["= 1.1.1"])
       s.add_dependency(%q<koala>, [">= 0"])
       s.add_dependency(%q<tinymce-rails>, ["~> 3.4.6"])
-      #s.add_dependency(%q<bborn-acts_as_taggable_on_steroids>, ["~> 2.0.beta2"])
+      s.add_dependency(%q<bborn-acts_as_taggable_on_steroids>, ["~> 2.0.beta2"])
     end
   else
     s.add_dependency(%q<community_engine>, [">= 0"])
@@ -900,7 +900,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<meta_search>, ["= 1.1.1"])
     s.add_dependency(%q<koala>, [">= 0"])
     s.add_dependency(%q<tinymce-rails>, ["~> 3.4.6"])
-    #s.add_dependency(%q<bborn-acts_as_taggable_on_steroids>, ["~> 2.0.beta2"])
+    s.add_dependency(%q<bborn-acts_as_taggable_on_steroids>, ["~> 2.0.beta2"])
   end
 end
 
